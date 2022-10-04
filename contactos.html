@@ -1,16 +1,52 @@
-<html lang="en">
+ feature/contactos
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Marcos Bonet-Roberto Sandoval" />
+    <meta name="description" content="Learning html y css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nuestra pagina</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script src="./index.js"></script>
+    <title>Learning wed html marcos&robert</title>
   </head>
   <body>
-    <header><h1>Nuestra pagina</h1></header>
-    <nav>
-      <a href="./quienesomos.html"></a>
-      <a href="./index.html"></a>
-      <a href="./nuestrosCv"></a>
-    </nav>
+    <header>
+        <h1>Dos latinos sueltos en Madrid</h1>
+        <nav>
+        <a href="./index.html">Quienes somos?</a>
+        </nav>
+       <nav>
+        <a href="./quienessomos.html">Quienes somos?</a>
+        </nav>
+        <nav>
+            <a href="./contactos.html">contactos</a>
+        </nav>
+    </header>
+   <form action="/my-handling-form-page" method="post">
+ <ul>
+  <li>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="mail">Correo electrónico:</label>
+    <input type="email" id="mail" name="user_mail">
+  </li>
+  <li>
+    <label for="msg">Mensaje:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+ </ul>
+</form>
+    <footer>
+        <address>ISDI coders alumns</address>
+    </footer>
   </body>
+  
 </html>
+
+
+
+
